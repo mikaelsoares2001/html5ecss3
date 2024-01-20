@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir auidos em html</p>
+    <audio src="midia/teste samsung espuma lpl.aac" controls autoplay></audio>
+    <p>Agora outra forma:</p>
+    <audio controls>
+        <source src="midia/teste samsung espuma lpl.aac" type="audio/mpeg">
+        <source src="midia/teste samsung espuma lpl.ogg" type="audio/ogg">
+        <source src="midia/teste samsung espuma lpl.wav" type="aduio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/teste samsung espuma lpl.aac">clique aqui para baixar o arquivo</a></p>
+        </audio>
+<p>Uma outra maneira:</p>
+
+    <audio preload="auto" controls autoplay loop>
+        <source src="midia/happy-mistake.mp3" type="">
+    </audio>
+</body>
+</html>

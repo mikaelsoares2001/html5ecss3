@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedado localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servido</p>
+    <p>A primeira forma mais simples, digitar "vídeo"</p>
+    <video src="midia/meu-video.m4v" width="500" controls loop></video>
+    <p>A outra forma que inclui todos os outros formatos:</p>
+    <video controls width="500" poster="imagens/limoes-capa.png" >
+        <source src="midia/Meu-Video.edit.mp4" type="video/mp4">
+        <source src="midia/Meu-Video.edit2.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidae com reprodução de vídeos</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube:</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8nzYL9RzmyM?si=4LUDWO3HUGYQyn8l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Inserindo vídeos do vímeo:</h1>
+    
+</body>
+</html>
